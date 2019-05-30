@@ -9,10 +9,10 @@ $(document).ready(function() {
     }
     var user = webURL.split(splitFlag)[1].split(".")[0];
     //user = 'yanghanqing';
-    blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
-    issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
-    issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues'
-    readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/About Me.md';
+    blogListURL = 'https://api.github.com/repos/data-rights-community/dataright.org/contents/blog';
+    issuesList = 'https://api.github.com/repos/data-rights-community/dataright.org/issues';
+    issuesHTML = 'https://github.com/data-rights-community/dataright.org/issues'
+    readmeURL = 'https://raw.githubusercontent.com/data-rights-community/dataright.org/master/About Me.md';
 
 
     $("#header").text("Data Rights Community 数权社区");
